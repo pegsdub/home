@@ -9,7 +9,7 @@ const Navbar = ({ toggle }) => {
         role="navigation"
       >
         <Link2
-          to="/"
+          to="/home"
           className="p-8 hover:text-blue-500 transition duration-700 ease-in-out"
         >
           hello :)

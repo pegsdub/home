@@ -35,7 +35,7 @@ function App() {
       <Navbar toggle={toggle} />
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/me" element={<Me />} />
         <Route path="/contactme" element={<ContactMe />} />
         <Route path="/creations" element={<Creations />} />
