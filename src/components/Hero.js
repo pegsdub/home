@@ -40,14 +40,14 @@ const Hero = () => {
             <div className="bg-transparent text-center lg:text-7xl md:text-7xl sm:text-5xl text-3xl font-extralight mb-14 underline decoration-yellow-300">
               i've worked in business development roles 4+ years in an outbound
               capacity and taught myself "web development" to better understand
-              application development
+              application development...
             </div>
           </div>
         </div>
         <div className="bg-white text-black">
           <div className="  flex items-center justify-center" id="whoiam">
             <div className="bg-transparent text-center lg:text-7xl md:text-7xl sm:text-5xl text-3xl font-extralight mb-14 underline decoration-red-600">
-              i would love to connect and chat about potential opportunities
+              i would love to connect and chat about potential opportunities...
             </div>
           </div>
         </div>
