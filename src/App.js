@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import Navbar from "./components/Navbar";
 import Home from "./pages";
 import { Routes, Route } from "react-router-dom";
 import Me from "./pages/me";
@@ -32,7 +31,6 @@ function App() {
 
   return (
     <>
-      <Navbar toggle={toggle} />
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <Routes>
         <Route path="/home" element={<Home />} />
